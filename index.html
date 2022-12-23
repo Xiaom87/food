@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+   <link rel="stylesheet" href="owl.carousel.min.css">
+   <link rel="stylesheet" href="owl.theme.default.min.css">
+   <link rel="stylesheet" href="css/style.css">
+   <title>Document</title>
+</head>
+<body>
+  
+  <header class="header">
+   <nav class="navbar navbar-expand-lg bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">ижевск</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 nav-centered">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Ваша Безопасность</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Новости</a>
+            </li>
+            <li class="nav-item">
+               <a class="nav-link" href="#">Вакансии</a>
+             </li>
+             <li class="nav-item">
+               <a class="nav-link" href="#">Реклама и партнерство</a>
+             </li>
+             <li class="nav-item">
+               <a class="nav-link" href="#">О нас</a>
+             </li>
+             <li class="nav-item">
+               <a class="nav-link" href="#">Контакты</a>
+             </li>
+          </ul>
+          <a href="./favorites.html"><div class="fa-solid fa-heart px-3 d-none d-lg-block" id="favorites"></div></a>
+          <div class="fa-solid fa-magnifying-glass px-3 d-none d-lg-block" id="search-btn"></div>
+          <div class="fa-solid fa-cart-shopping px-3 d-none d-lg-block" id="cart-btn"></div>
+        </div>
+        <div class="fa-solid fa-user px-3 d-none d-lg-block" id="login-btn"></div>
+      </div>
+      <form action="" class="search-form">
+         <input type="search" id="search-box" placeholder="search-here...">
+         <label for="search-box" class="fa-solid fa-magnifying-glass"></label>
+      </form>
+      <div class="shopping-cart">
+         <div class="box">
+            <i class="fa-solid fa-trash"></i>
+            <img src="img/06.jpg" alt="">
+            <div class="content">
+               <h3>ЖК Night</h3>
+               <span class="price">11мл&#8381;</span>
+            </div>
+         </div>
+         <div class="box">
+            <i class="fa-solid fa-trash"></i>
+            <img src="img/06.jpg" alt="">
+            <div class="content">
+               <h3>ЖК Night</h3>
+               <span class="price">10мл&#8381;</span>
+            </div>
+         </div>
+         <div class="box">
+            <i class="fa-solid fa-trash"></i>
+            <img src="img/06.jpg" alt="">
+            <div class="content">
+               <h3>ЖК Night</h3>
+               <span class="price">12мл&#8381;</span>
+            </div>
+         </div>
+      </div>
+      <form action="" class="login-form">
+         <h3>login now</h3>
+         <input type="email" placeholder="your email" class="box">
+         <input type="password" placeholder="your password" class="box">
+         <p>Forget your password <a href="#">click here</a></p>
+         <p>don't have an account <a href="#">create now</a></p>
+         <input type="submit" value="login now" class="btn">
+      </form>
+    </nav>
+  </header>
+  <div class="links-info-top d-none d-lg-block">
+    <div class="container text-center">
+      <div class="row">
+        <div class="col">
+          <div class="links-info-logo">
+            <img src="img/333.svg" class="img-fluid " alt="">
+          </div>
+        </div>
+        <div class="col">
+         <div class="links-info-stock mt-3">
+          <a href="">акции</a>
+         </div>
+        </div>
+        <div class="col">
+          <div class="links-info-delivery-payment mt-4">
+            <a href="">Доставка и оплата</a>
+          </div>
+        </div>
+        <div class="col">
+          <div class="links-info-reviews mt-4">
+            <a href="">Отзывы</a>
+          </div>
+        </div>
+        <div class="col">
+          <div class="links-info-telephone mt-4">
+            <a href="">+7 (3412) 34-34-34</a>
+            <p>Суббота с 10:00-00:00</p>
+          </div>
+        </div>
+        <div class="col">
+          <div class="links-info-personal-area mt-4 ms-5">
+            <div class="fa-solid fa-user px-3 d-none d-lg-block" id="login-btn"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="links-menu-nabory mt-3 d-none d-lg-block">
+    <div class="container text-center">
+      <div class="row">
+        <div class="col">
+          <a href="">Сеты (наборы)</a>
+        </div>
+        <div class="col">
+          <a href="">Сеты Антикризис</a>
+        </div>
+        <div class="col">
+          <a href="">Хиты и новинки</a>
+        </div>
+        <div class="col">
+          <a href="">Пицца</a>
+        </div>
+        <div class="col">
+          <a href="">Пицы Антикризис</a>
+        </div>
+        <div class="col">
+          <a href="">Роллы</a>
+        </div>
+        <div class="col">
+          <a href="">Гунканы</a>
+        </div>
+        <div class="col">
+          <a href="">Шеф-меню</a>
+        </div>
+      </div>
+      <div class="row mt-3">
+        <div class="col">
+          <a href="">Закуски</a>
+        </div>
+        <div class="col">
+          <a href="">Японские пиццы</a>
+        </div>
+        <div class="col">
+          <a href="">Вегетерианское меню</a>
+        </div>
+        <div class="col">
+          <a href="">Напитки</a>
+        </div>
+        <div class="col">
+          <a href="">Десерты</a>
+        </div>
+        <div class="col">
+          <a href="">Соусы</a>
+        </div>
+        <div class="col">
+          <a href="">Комбо-наборы</a>
+        </div>
+        <div class="col">
+          <a href="">Дополнительно</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <section class="slider ">
+    <div class="owl-carousel mt-5">
+       <a href=""><div class="text-center"><img src="img/slayd-mp.jpg" alt=""></div></a>
+       <a href=""><div class="text-center"><img src="img/hot.jpg" alt=""></div></a>
+       <a href=""><div class="text-center"><img src="img/izh-23.jpg" alt=""></div></a>
+       <a href=""><div class="text-center"><img src="img/izh-24.jpg" alt=""></div></a>
+       <a href=""><div class="text-center"><img src="img/keshbek-slayd.jpg" alt=""></div></a>
+       <a href=""><div class="text-center"><img src="img/laklmka-sayt.jpg" alt=""></div></a>
+       <a href=""><div class="text-center"><img src="img/mirovoy.jpg" alt=""></div></a>
+       <a href=""><div class="text-center"><img src="img/uletnyy.jpg" alt=""></div></a>
+       <a href=""><div class="text-center"><img src="img/vse-11.jpg" alt=""></div></a>
+       <a href=""><div class="text-center"><img src="img/yamayka-1.jpg" alt=""></div></a>
+       <a href=""><div class="text-center"><img src="img/555-slayd.jpg" alt=""></div></a>
+       <a href=""><div class="text-center"><img src="img/slayd-2-piccy.jpg" alt=""></div></a>
+       <a href=""><div class="text-center"><img src="img/3-picccy-slayd (1).jpg" alt=""></div></a>
+      
+     </div>
+</section>
+<section class="wrapper-popular">
+  <div class="container text-center">
+    <div class="row justify-content-md-center">
+      <div class="popular-heading">
+        <h2 class="text-start">Популярное</h2>
+      </div>
+      <div class="col-sm-6 col-md-6 col-lg-3">
+      <div class="card border-0" style="width: 29rem;">
+        <img src="img/pepperoni-1.jpg" class="img-fluid" alt="...">
+        <div class="card-body">
+          <h5 class="card-title mb-5">пеперони</h5>
+        <div class="card-content-top">
+          <div class="fa-solid fa-weight-hanging"> 340 г.</div>
+
+<!-- Button trigger modal-1 -->
+          <button type="button" class="btn btn-content-top" data-bs-toggle="modal" data-bs-target="#exampleModal">
+          <div class="fa-solid fa-leaf"> состав </div>  
+          </button>
+          </div>
+          <div class="card-content-bottom mt-3">
+            <span class=""> от 319&#8381; </span>
+          <button type="button" class="btn btn-content-bottom ms-2">Выбрать</button>
+          </div>
+        </div>
+      </div>
+       
+<!-- Modal-1 -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Пеперони</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+       <ul>
+        <li class="text-start">Состав:</li>
+        <li class="text-start">Пепперони</li>
+        <li class="text-start">томатный соус</li>
+        <li class="text-start">сыр моцарелла </li>
+        <li class="text-start">орегано</li>
+        <li class="text-start">масло чесночное</li>
+        <li class="text-start">тесто ручной работы</li>
+        <li class="text-start mt-3">21 см 340 г</li>
+        <li class="text-start">27 см 470 г</li>
+        <li class="text-start">32 см 650 г</li>
+        <li class="text-start mt-3">Пищевая ценность на 100 г: 319,3 ккал</li>
+        <li class="text-start">углеводы - 27,5 г</li>
+        <li class="text-start">Белки - 14,9 г</li>
+        <li class="text-start">жиры - 16,7 г</li>
+        <li class="text-start">углеводы - 27,5 г</li>
+       </ul>
+      
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Оформить заказ</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Modal the end -->
+    </div>
+      <div class="col-sm-6 col-md-6 col-lg-3">
+        <div class="card border-0" style="width: 29rem;">
+          <img src="img/4-vkusa-32.jpg" class="img-fluid" alt="...">
+          <div class="card-body">
+            <h5 class="card-title mb-5">4 вкуса</h5>
+            <div class="card-content-top">
+              <div class="fa-solid fa-weight-hanging"> 375 г.</div>
+<!-- Button trigger modal-2 -->
+              <button type="button" class="btn btn-content-top"
+              class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModall" >
+              <div class="fa-solid fa-leaf"  > состав </div>  
+              </button>
+              </div>
+              <div class="card-content-bottom mt-3">
+                <span class=""> от 309&#8381; </span>
+              <button type="button" class="btn btn-content-bottom ms-2">Выбрать</button>
+              </div>
+          </div>
+        </div>
+<!-- Modal-2 -->
+<div class="modal fade" id="exampleModall" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">4 Вкуса</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <ul>
+          <li class="text-start">Состав:</li>
+          <li class="text-start">Грудка куриная копченая</li>
+          <li class="text-start">салями</li>
+          <li class="text-start">ветчина</li>
+          <li class="text-start">шампиньоны</li>
+          <li class="text-start">сыр для пиццы</li>
+          <li class="text-start">пицца соус 1/2</li>
+          <li class="text-start">острый спайси соус 1/2</li>
+          <li class="text-start">тесто</li>
+          <li class="text-start">масло чесночное, специи</li>
+          <li class="text-start mt-3">21 см 375 г</li>
+          <li class="text-start">27 см 550 г</li>
+          <li class="text-start">32 см 700 г</li>
+          <li class="text-start mt-3">Пищевая ценность на 100 г: 310,3 ккал</li>
+          <li class="text-start">углеводы - 27,5 г</li>
+          <li class="text-start">Белки - 15,4 г</li>
+          <li class="text-start">жиры - 16,7 г</li>
+          <li class="text-start">углеводы - 24,7 г</li>
+         </ul>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">закрыть</button>
+        <button type="button" class="btn btn-primary">Оформить заказ</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+      </div>
+<!-- Modal the end -->
+      <div class="col-sm-6 col-md-4 col-lg-3">
+        <div class="card border-0" style="width: 29rem;">
+          <img src="img/s-vech-i-grib.jpg" class="img-fluid" alt="...">
+          <div class="card-body">
+            <h5 class="card-title mb-5">Ветчина и Грибы</h5>
+            <div class="card-content-top">
+              <div class="fa-solid fa-weight-hanging"> 375 г.</div>
+<!-- Button trigger modal-3 -->
+              <button type="button" class="btn btn-content-top"
+              class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal-3" >
+              <div class="fa-solid fa-leaf"  > состав </div>  
+              </button>
+              </div>
+              <div class="card-content-bottom mt-3">
+                <span class=""> от 289&#8381; </span>
+              <button type="button" class="btn btn-content-bottom ms-2">Выбрать</button>
+              </div>
+          </div>
+        </div>
+<!-- Modal-3 -->
+        <div class="modal fade" id="exampleModal-3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Ветчина и грибы</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <ul>
+                  <li class="text-start">Состав:</li>
+                  <li class="text-start">Ветчина</li>
+                  <li class="text-start"> жареные шампиньоны</li>
+                  <li class="text-start">сыр моцарелла</li>
+                  <li class="text-start">шампиньоны</li>
+                  <li class="text-start">томатный соус</li>
+                  <li class="text-start">масло чесночное</li>
+                  <li class="text-start">орегано, тесто</li>
+                  <li class="text-start mt-3">21 см 375 г</li>
+                  <li class="text-start">27 см 550 г</li>
+                  <li class="text-start">32 см 650 г</li>
+                  <li class="text-start mt-3">Пищевая ценность на 100 г: 310,3 ккал</li>
+                  <li class="text-start">углеводы - 27,5 г</li>
+                  <li class="text-start">Белки - 15,4 г</li>
+                  <li class="text-start">жиры - 16,7 г</li>
+                  <li class="text-start">углеводы - 24,7 г</li>
+                 </ul>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">закрыть</button>
+                <button type="button" class="btn btn-primary">Оформить заказ</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+<!-- Modal the end -->
+<div class="col-sm-6 col-md-6 col-lg-3">
+  <div class="card border-0" style="width: 29rem;">
+    <img src="img/don-bekon-1.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title mb-5">Дон Бекон</h5>
+      <div class="card-content-top">
+        <div class="fa-solid fa-weight-hanging"> 370 г.</div>
+<!-- Button trigger modal-4 -->
+        <button type="button" class="btn btn-content-top"
+        class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModall" >
+        <div class="fa-solid fa-leaf"  > состав </div>  
+        </button>
+        </div>
+        <div class="card-content-bottom mt-3">
+          <span class=""> от 359&#8381; </span>
+        <button type="button" class="btn btn-content-bottom ms-2">Выбрать</button>
+        </div>
+    </div>
+  </div>
+</div>
+    </div>
+  </div>
+</div>
+    </section>
+
+  
+
+
+
+
+   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
+   <script
+  src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="crossorigin="anonymous"></script>
+   <script src="./jquery.min.js"></script>
+   <script src="owl.carousel.min.js"></script>
+   <script src="./js/main.js"></script>
+   <script>
+    $(document).ready(function(){
+    $(".owl-carousel").owlCarousel({
+       items: 4,
+       margin: 10,
+       autoplay: true,
+       loop: true,
+       autoplayTimeout: 3000,
+       autoplayHoverPause: true,
+       videoHeight: true,
+       responsive:{
+        0:{
+          items:2
+        },
+        1024:{
+          items:4
+        }
+       }
+    });
+  });
+ </script>
+   
+</body>
+</html>
