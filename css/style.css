@@ -309,3 +309,18 @@ body {
  .modal-body ul {
    list-style-type: none;
  }
+ a {
+   text-decoration: none;
+ }
+.card-appetite {
+   background-color: #666;
+   border: 1px solid none;
+   border-radius: 10px;
+   height: 13rem;
+   color: #ffffff;
+}
+.card-delivery-appetite {
+   border: 1px solid none;
+   border-radius: 10px;
+   height: 13rem;
+}
