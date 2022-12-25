@@ -90,12 +90,13 @@ body {
    width: 15rem;
    max-width: 50rem;
    height: 3rem;
-   color: #eee;
+   color: #fff;
    border-radius: 5px;
    overflow: hidden;
    display: flex;
    align-items: center;
 }
+
 .header .search-form.active {
    right: 2rem;
    transition: .4s linear;
@@ -107,6 +108,7 @@ body {
    text-transform: none;
    font-size: 1rem;
    color: var(--black);
+   background-color: var(--white);
    padding: 0 1.5rem;
 }
 .header .search-form label {
@@ -379,4 +381,9 @@ body {
 .footer li a:hover {
    text-decoration: underline;
    color: #000;
+}
+.footer-text-bottom p {
+   font-size: 8px;
+   color: #fff;
+   text-transform: none;
 }
